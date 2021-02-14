@@ -135,7 +135,7 @@ class Player:
         global MP
         print(f'{Player.name} chanted the spell of HEAL.')
         MP -= 4
-        if MP <= 3:
+        if MP <= 9:
             print('Thy MP is too low.')
             if MP < 0:
                 MP = 0
